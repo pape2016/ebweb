@@ -17,6 +17,37 @@
 
 	</head>
 <body>
+<div>
+<table width="200" border="1">
+  <tr>
+    <td><table width="200" border="1">
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+    <td><table width="200" border="1">
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+    <td><table width="200" border="1">
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  
+</table>
 
+</div>
 </body>
 </html>
