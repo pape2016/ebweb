@@ -7,18 +7,21 @@
 	</head>
 
 	<style type="text/css">
+		body{background-color:#ffe;}
 		.container{width:1000px; margin:0 auto;}
 		.title{text-align:center;font-size:28px; margin-top:30px;font-family:微软雅黑;}
 		.goods_list{border:0px solid red;width:1000px;margin:0 auto;}
-		.goods{border-top:1px solid #c5c5c5; margin-top:10px;	height:100px;}
-		.pic{width:80px;height:80px;border:1px solid #eee;}
-		.cell{width:80px;height:80px;float:left;line-height:80px;}
-		.name{width:567px;}
-		.quantity{width:100px;text-align:center;}
+		.goods{border-top:1px solid #c5c5c5; height:100px;font-size:14px;}
+		.cell{width:80px;height:80px;float:left;margin-top:9px;}
+		.pic{width:80px;height:80px;border:1px solid #eee;}		
+		.name{width: 546px;padding-left:15px;padding-right:15px;}  
+            	.unit_price{width:100px;text-align:center;}
+		.quantity{text-align:center;}
 		.operation{text-align:center;}
 		.div_order{width:80px;height:80px;float:right;}
 		.div_order a{display:block;width:96px;height:52px;text-decoration: none;background-color:#E64346;text-align:center;line-height:52px;color:white;font-family:微软雅黑;font-weight:bold;font-size:18px;}
-
+		.d1{width:500px;height:100px;border:1px solid red;margin:0 auto;line-height:100px;}
+		.d2{border:1px solid blue;height:50px;width:50px;float:left;line-height:50px;background-color:yellow;}
 	</style>
 
 	<body>
@@ -76,5 +79,7 @@
 		</div>
 			<div class="div_order"><a href="">去结算</a></div>
 	</div>
+
+
 	</body>
 </html>
