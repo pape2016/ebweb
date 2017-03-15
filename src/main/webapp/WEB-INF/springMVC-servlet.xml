@@ -16,7 +16,7 @@
 
 	<mvc:default-servlet-handler/>
 	<mvc:annotation-driven/>
-<!--
+
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
 		destroy-method="close">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
@@ -27,14 +27,14 @@
 
 	<bean id="sessionFactory"
 		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean"
-		lazy-init="false">-->
+		lazy-init="false">
 		<!-- 注入dataSource,给sessionfactoryBean内 setDataSource提供数据源 -->
-<!--
+
 		<property name="dataSource" ref="dataSource"></property>
-		<property name="configLocation" ref="classpath:hibernate.cfg.xml"></property>-->
-		<!-- 加载实体类的映射文件位置及名称 --><!--
-		<property name="mappingLocations" ref="classpath:com/xxnw/eb/model/*.hbm.xml"></property>
-	</bean>-->
+		<property name="configLocation" value="classpath:/WEB-INF/hibernate.cfg.xml"></property>
+		<!-- 加载实体类的映射文件位置及名称 -->
+		<property name="mappingLocations" value="classpath:com/xxnw/eb/model/*.hbm.xml"></property>
+	</bean>
 	<!-- 配置spring声明式事务 -->
 
 	<!--<bean>
